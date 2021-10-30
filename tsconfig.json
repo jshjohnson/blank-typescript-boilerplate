@@ -17,6 +17,7 @@
     "useUnknownInCatchVariables": true /* Type catch clause variables as 'unknown' instead of 'any'. */,
     "noUnusedLocals": true /* Enable error reporting when a local variables aren't read. */,
     "noImplicitReturns": true /* Enable error reporting for codepaths that do not explicitly return in a function. */,
-    "skipLibCheck": true /* Skip type checking all .d.ts files. */
+    "skipLibCheck": true /* Skip type checking all .d.ts files. */,
+    "resolveJsonModule": true
   }
 }
