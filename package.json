@@ -7,6 +7,7 @@
     "build": "tsc -p .",
     "start": "ts-node ./src/index.ts",
     "test": "jest",
+    "test:watch": "yarn test --watch",
     "lint": "eslint",
     "format": "prettier src/**/*.ts --loglevel=warn --write"
   },
