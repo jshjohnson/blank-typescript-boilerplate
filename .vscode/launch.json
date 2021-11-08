@@ -6,11 +6,13 @@
       "type": "node",
       "request": "launch",
       "runtimeArgs": [
-        "--inspect",
-        "${workspaceRoot}/node_modules/.bin/jest",
+        "--inspect-brk",
+        "./node_modules/.bin/jest",
         "--runInBand",
         "--coverage",
-        "false"
+        "false",
+        "--config",
+        "./jest.config.js"
       ],
       "console": "integratedTerminal"
     }

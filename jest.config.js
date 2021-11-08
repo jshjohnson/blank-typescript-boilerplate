@@ -6,6 +6,6 @@ module.exports = {
   },
   clearMocks: true,
   restoreMocks: true,
-  modulePathIgnorePatterns: ['<rootDir>/dist'],
+  modulePathIgnorePatterns: ['<rootDir>/dist', '<rootDir>/node_modules' ],
   testRegex: '.*.spec.ts',
 };
