@@ -1,3 +1,3 @@
-export default function init() {
-  return 'Hello world!';
+export default function add(a: number, b: number): number {
+  return a + b;
 }
